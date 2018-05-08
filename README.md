@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # elme
 
 > sell app named elme
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# Travel
+An app of travel
+>>>>>>> 8badf2db7f3507d5fb5701ff70fcd1809fa8ead0
