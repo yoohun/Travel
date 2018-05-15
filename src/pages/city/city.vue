@@ -1,7 +1,7 @@
 <template>
   <div>
     <cityheader></cityheader>
-    <citysearch></citysearch>
+    <citysearch :cities="cities"></citysearch>
     <citylist :list="hotcity" :cities="cities" :letter="letter"></citylist>
     <cityalphabet :cities="cities" @change="changeletter"></cityalphabet>
   </div>
@@ -41,7 +41,7 @@ export default {
       }
     },
     changeletter (letter) {
-      this.letter=letter
+      this.letter = letter
     }
   },
   mounted () {
